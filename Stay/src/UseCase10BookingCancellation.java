@@ -3,9 +3,9 @@ import java.util.Map;
 import java.util.Stack;
 
 class CancellationService {
-    private Map<String, Integer> inventory = new HashMap<>();
-    private Map<String, String> activeBookings = new HashMap<>();
-    private Stack<String> releasedRooms = new Stack<>();
+    public Map<String, Integer> inventory = new HashMap<>();
+    public Map<String, String> activeBookings = new HashMap<>();
+    public Stack<String> releasedRooms = new Stack<>();
 
     public CancellationService() {
         inventory.put("Deluxe", 5);
